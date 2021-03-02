@@ -8,7 +8,7 @@ package App::ThisDist::OnMetaCPAN;
 use strict;
 use warnings;
 
-our %SPEC:
+our %SPEC;
 
 $SPEC{':package'} = {
     v => 1.1,
