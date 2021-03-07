@@ -17,6 +17,13 @@ $SPEC{':package'} = {
 
 $SPEC{this_dist_on_metacpan} = {
     v => 1.1,
+    summary => 'Open MetaCPAN release page for "the current distribution"',
+    description => <<'_',
+
+This is a thin wrapper for <prog:this-dist>. See its documentation for details
+on how the script determines "the current distribution".
+
+_
     args => {},
     deps => {
         prog => 'this-dist',
@@ -35,6 +42,13 @@ sub this_dist_on_metacpan {
 $SPEC{this_mod_on_metacpan} = {
     v => 1.1,
     args => {},
+    summary => 'Open MetaCPAN module page for "the current module"',
+    description => <<'_',
+
+This is a thin wrapper for <prog:this-mod>. See its documentation for details on
+how the script determines "the current module".
+
+_
     deps => {
         prog => 'this-mod',
     },
